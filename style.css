@@ -1,0 +1,235 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header ul{
+    list-style: none;
+    margin: 0;
+    padding: 0 50px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    background-color: #1F2937;
+    justify-content: space-between;
+    
+    
+}
+
+header ul li a {
+    color: #E5E7EB; /* Color blanco */
+    text-decoration: none; /* Elimina subrayado */
+    font-size: 18px;
+}
+
+
+
+
+.push-left {
+    align-items: center;
+    display: flex;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+
+.logo {
+    width: 80px;
+    height: 80px; /* Controla el tamaño de la imagen */
+    object-fit: cover;
+    
+}
+
+.logo-text {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #F9FAF8;
+    font-size: 24px;
+    margin-left: 18px;
+
+}
+
+.awesome {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #1F2937;
+}
+
+.awesome .awesome-1 h1 {
+    font-weight: 900;
+    color: #F9FAF8;
+    font-size: 48px;
+    
+}
+
+.awesome-1{
+    margin-bottom: 50px;
+    margin: 50px;
+}
+
+.awesome-1 p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.awesome-1 a{
+    text-decoration: none;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    padding: 1% 5%;
+    
+
+}
+
+.valenamelia {
+    height: 600px;
+    width: auto;
+    margin: 50px 50px;
+    
+    
+}
+
+.random h1{
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding: 50px 0;
+}
+
+.random ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    flex-wrap: wrap;
+    
+}
+
+.one, .two, .three, .four {
+    height: 300px;
+    width: 220px;
+    border-color: #3882F6;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.random ul li p{
+    font-size: 18px;
+    color: #1F2937;
+    text-align: center;
+    height: 200px;
+    width: 220px;
+}  
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+
+}
+.quote-1 {
+    font-size: 36px;
+    font-style: italic; /* Estilo inclinado */
+    padding: 50px 20vh;
+    color: #1F2937;
+    text-align: start;
+    font-weight: 300;
+    font-family: "roboto", sans-serif;
+    
+}
+
+.name{
+    text-align: end;
+    padding-right: 30vh;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 100px;
+}
+
+.bottom-container {
+
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    margin: 10vh;
+    padding: 10vh;
+}
+
+.sign-up {
+    color: #E5E7EB; /* Color blanco */
+    text-decoration: none;
+    border: solid;
+    border-color: #E5E7EB;
+    border-radius: 3px;
+    border-width: 2px;
+    text-align: center;
+    font-weight: 700;
+    padding: 5px;
+
+}
+
+.sign-up-div {
+    min-width: 100px;
+    margin: 5vh 10vh
+}
+
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 100px 0;
+}
+
+
+@media (max-width: 768px){
+
+.awesome {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #1F2937;
+}
+.valenamelia {
+        height: 400px;
+        width: auto;
+        margin: 50px 50px;
+}
+
+
+
+.sign-up-div {
+    min-width: 100px;
+    margin: 5vh 50px;
+}
+
+header ul{
+    list-style: none;
+    margin: 0;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    background-color: #1F2937;
+    justify-content: space-between;
+}
+
+.push-left {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-top: 10px;
+}
+}
+header ul li {
+    width: 100%;  /* Asegura que los elementos li ocupen el ancho completo en móviles */
+    text-align: center;  /* Centra el texto dentro de los elementos li */
+}
+
+
+  
