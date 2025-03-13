@@ -225,11 +225,58 @@ header ul{
     margin-right: auto;
     margin-top: 10px;
 }
-}
+
 header ul li {
     width: 100%;  /* Asegura que los elementos li ocupen el ancho completo en móviles */
     text-align: center;  /* Centra el texto dentro de los elementos li */
 }
+}
+@media (min-width: 769px) and (max-width: 1024px){
+    .valenamelia {
+        height: 50vw;
+        width: auto;
+        margin: 50px 50px;
+}
+}
 
+@media (max-width: 576px) { 
+    /* Para teléfonos más grandes (iPhone 12, Galaxy S21, etc.) */
+    .valenamelia {
+        height: 80vw;
+        width: auto;
+        margin: 50px 50px;
+  }
+  .sign-up-div {
+    min-width: 100px;
+    margin: 5vw 10vw;
+}
+.quote-1 {
+    font-size: 36px;
+    font-style: italic; /* Estilo inclinado */
+    padding: 50px 20vw;
+    color: #1F2937;
+    text-align: start;
+    font-weight: 300;
+    font-family: "roboto", sans-serif;
+    
+}
 
-  
+.name{
+    text-align: end;
+    padding-right: 10vw;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 100px;
+}
+
+.bottom-container {
+
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    margin: 10vw;
+    padding: 10vw;
+}
+}
